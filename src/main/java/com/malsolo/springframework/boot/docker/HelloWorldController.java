@@ -8,7 +8,8 @@ import reactor.core.publisher.Mono;
 public class HelloWorldController {
 
     @GetMapping("/hello")
-    public Mono<String> hello() {
+    public Mono<String> hello() throws InterruptedException {
+        Thread.sleep(5000);
         return Mono.just("Hello World");
     }
 

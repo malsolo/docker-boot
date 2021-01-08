@@ -94,6 +94,12 @@ snapshot-dependencies
 application
 ``` 
 
+## Kubernetes features
+
+### Graceful shutdown
+
+See [Graceful shutdown support](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#boot-features-graceful-shutdown)
+
 ## Additional resources
 
 ### Reference Documentation
